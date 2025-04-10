@@ -15,7 +15,7 @@ func Prompt(recommend string) (string, error) {
 
 func InputString() (string, error) {
 	reader := bufio.NewReader(os.Stdin)
-
+	//	test
 	text, err := reader.ReadString('\n')
 
 	if err != nil {
